@@ -3,11 +3,12 @@ import numpy as np
 
 #create period
 x = np.linspace(0,2*np.pi,1000,endpoint=True)
-cosine, sine = np.cos(x), np.sin(x)
+cosine, sine, tangent = np.cos(x), np.sin(x), np.tan(x)
 
 #plot sine and cosine
 plt.plot(x, sine, color = 'darkblue', label = 'Sine')
 plt.plot(x, cosine, color = 'darkred', label = 'Cosine')
+plt.plot(x, tangent, color = 'green', label = 'Tangent')
 
 #indicate dimensions and tick names, customize plot
 plt.xlim(0, 2 * np.pi)
