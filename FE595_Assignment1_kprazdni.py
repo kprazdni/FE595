@@ -5,7 +5,7 @@ import numpy as np
 x = np.linspace(0,2*np.pi,1000,endpoint=True)
 cosine, sine, tangent = np.cos(x), np.sin(x), np.tan(x)
 
-#plot sine and cosine
+#plot sine, cosine and tangent
 plt.plot(x, sine, color = 'darkblue', label = 'Sine')
 plt.plot(x, cosine, color = 'darkred', label = 'Cosine')
 plt.plot(x, tangent, color = 'darkgreen', label = 'Tangent')
