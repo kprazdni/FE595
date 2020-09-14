@@ -27,7 +27,7 @@ if __name__ == '__main__':
     ax.spines['top'].set_color('none')
     ax.xaxis.set_ticks_position('bottom')
     ax.spines['bottom'].set_position(('data', 0))
-    ax.yaxis.set_ticks_position('left')  # 17
+    ax.yaxis.set_ticks_position('left')
     ax.spines['left'].set_position(('data', 0))
     plt.legend(loc='lower left')
     plt.show()
