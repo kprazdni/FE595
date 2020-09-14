@@ -10,6 +10,7 @@ plt.plot(x, sine, color = 'darkblue', label = 'Sine')
 plt.plot(x, cosine, color = 'darkred', label = 'Cosine')
 plt.plot(x, tangent, color = 'darkgreen', label = 'Tangent')
 
+
 #indicate dimensions and tick names, customize plot
 plt.xlim(0, 2 * np.pi)
 plt.ylim(-2,2)
